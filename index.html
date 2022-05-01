@@ -17,10 +17,13 @@
       </div>
     </header> 
     <section class="about">
+      <canvas class="orb-canvas" id="orb-canvas"></canvas>
       <div class="animate__animated animate__fadeInLeft" class="about__info">
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-        <button>Узнать подробнее</button>
+        <button>Узнать подробнее
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
       </div>
       <div class="animate__animated animate__fadeInRight" class="about__images">
         <img class="about__sun-image" src="img/sun.png" height="100px" width="100px" class='rotate'>
@@ -78,6 +81,19 @@
         </div>
       </div>
     </section>
+    <section class="promo">
+      <div class="promo__image"></div>
+      <div class="promo__right">
+        <div class="partword">
+          <h2>Зарядите свой дом</h2>
+          <p><i class="fa-solid fa-circle"></i> Солнечные панели сертифицированы мировыми экспертами: система безопасна и надежна.</p>
+          <p><i class="fa-solid fa-circle"></i> Следите за накоплением энергии вашего дома в режиме реального времени и настраивайте процент расхода и накопления энергии.</p>
+          <div class="btn">
+            <button>Заказать <i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="form">
       <div class="form__container">
         <h1>Оставьте свои контакты</h1>
@@ -89,7 +105,7 @@
           </div>
           <div class="form__group">
             <label for="email">Электронный адрес</label>
-            <input type="type" placeholder="***yandex.ru" id="email">
+            <input type="type" placeholder="*****yandex.ru" id="email">
           </div>
           <div class="form__group">
             <label for="phone">Номер телефона</label>
@@ -135,5 +151,6 @@
       </div>
       <div class="footer__copyright">GreenCorp © 2021</div>
     </footer>
+    <script src="js/canvas.js"></script>
   </body>
 </html>
